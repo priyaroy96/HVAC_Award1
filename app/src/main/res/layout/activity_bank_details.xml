@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.kumaratul.hvac_award.BankDetails">
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="Name Of Account Holder(Bank)"
+        android:textSize="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/editText36" />
+
+    <EditText
+        android:id="@+id/editText36"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button6"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignStart="@+id/editText37" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Name Of Bank"
+        android:layout_below="@+id/textView39"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/editText36" />
+
+    <EditText
+        android:id="@+id/editText37"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/editText36"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/editText41" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Bank Branch"
+        android:layout_below="@+id/textView40"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/editText37" />
+
+    <EditText
+        android:id="@+id/editText38"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/editText37"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView40"
+        android:layout_alignStart="@+id/editText39" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Account No."
+        android:layout_below="@+id/textView41"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/editText38" />
+
+    <EditText
+        android:id="@+id/editText39"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_below="@+id/textView41"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView41"
+        android:layout_alignStart="@+id/editText41" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="IFSC Code"
+        android:layout_below="@+id/textView42"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/editText39" />
+
+    <EditText
+        android:id="@+id/editText40"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/textView42"
+        android:layout_toEndOf="@+id/textView43"
+        android:layout_alignStart="@+id/editText41" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Project Number"
+        android:layout_below="@+id/textView43"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/editText40" />
+
+    <EditText
+        android:id="@+id/editText41"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/textView43"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView45"/>
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Capacity"
+        android:layout_below="@+id/textView44"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/editText45" />
+
+    <EditText
+        android:id="@+id/editText42"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_below="@+id/textView44"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView44" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Project Site"
+        android:layout_below="@+id/textView45"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/editText44" />
+
+    <EditText
+        android:id="@+id/editText43"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/editText42"
+        android:layout_toEndOf="@+id/textView45"
+        android:layout_alignBottom="@+id/textView46" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="Address"
+        android:layout_above="@+id/editText46"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editText44"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignBaseline="@+id/textView47"
+        android:layout_alignBottom="@+id/textView47"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView48" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Area"
+        android:layout_alignBaseline="@+id/editText45"
+        android:layout_alignBottom="@+id/editText45"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/editText45" />
+
+
+    <EditText
+        android:id="@+id/editText45"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_above="@+id/editText46"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/editText46" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="City"
+        android:layout_above="@+id/button41"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/editText46" />
+
+    <EditText
+        android:id="@+id/editText46"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_above="@+id/button41"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/button41" />
+
+
+    <Button
+        android:id="@+id/button40"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Save"
+        android:textSize="20dp"
+        android:layout_alignBaseline="@+id/button41"
+        android:layout_alignBottom="@+id/button41"
+        android:layout_alignParentEnd="true" />
+
+
+
+    <Button
+        android:id="@+id/button41"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:text="UploadImage"
+        android:layout_marginBottom="21dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="NOTE:-Project Number Format(Ex:-8409946881/12345)"
+        android:textSize="12dp"
+        android:layout_below="@+id/editText46"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
+

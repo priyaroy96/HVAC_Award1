@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/rules1"
+        android:orderInCategory="100"
+        android:title="Rules For Ratings"
+        app:showAsAction="never" />
+    <item
+    android:id="@+id/rules2"
+    android:orderInCategory="100"
+    android:title="Rules For Projects/Awards"
+    app:showAsAction="never" />
+    <item
+        android:id="@+id/rules3"
+        android:orderInCategory="100"
+        android:title="LOG OUT"
+        app:showAsAction="never" />
+</menu>

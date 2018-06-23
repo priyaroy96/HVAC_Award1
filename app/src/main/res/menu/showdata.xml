@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/rules1"
+            android:title="Rules For Ratings">
+         </item>
+    <item
+        android:id="@+id/rules2"
+
+        android:title="Rules For Projects/Awards"></item>
+     <item
+    android:id="@+id/rules3"
+    android:title="Email">
+     </item>
+    <item
+        android:id="@+id/rules4"
+        android:title="Call">
+
+    </item>
+
+
+</menu>
